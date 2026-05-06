@@ -56,3 +56,5 @@ theme: minima
 collections:
   people:
     output: false
+  workpackages:
+    output: false
