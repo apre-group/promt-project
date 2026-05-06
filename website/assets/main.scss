@@ -1,0 +1,42 @@
+---
+---
+@import "minima";
+
+.custom-footer-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;    
+  text-align: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.footer-logo {
+    flex-shrink: 0;
+    width: 250px;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer-disclaimer {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+@media (min-width: 600px) {
+  .custom-footer-layout {
+    flex-direction: row; 
+    justify-content: space-between;
+    text-align: left; 
+  }
+
+  .footer-legal-links {
+    justify-content: flex-end;
+  }
+}
