@@ -40,3 +40,47 @@
     justify-content: flex-end;
   }
 }
+
+/* ==========================================================================
+   People Grid Styles
+   ========================================================================== */
+
+.people-grid {
+  display: grid;
+  grid-template-columns: 1fr; /* 1 column on mobile */
+  gap: 10px;
+  margin-top: 40px;
+}
+
+/* Desktop layout: 2 or 3 columns */
+@media (min-width: 600px) {
+  .people-grid {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); 
+  }
+}
+
+.person-card {
+  border: 1px solid #eee;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+
+  a {
+    color: inherit;
+  }
+}
+
+.person-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%; /* Makes the image a perfect circle */
+  margin-bottom: 15px;
+}
+
+.person-role {
+  color: #666;
+  font-style: italic;
+  margin-bottom: 10px;
+}
