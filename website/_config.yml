@@ -25,7 +25,6 @@ description: >- # this means to ignore newlines until "baseurl:"
   aiming to answer fundamental algorithmic questions related to verification of probabilistic programs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  apre-group
 
 # Build settings
 theme: minima
@@ -58,3 +57,6 @@ collections:
     output: false
   workpackages:
     output: false
+
+header_pages:
+  - people.markdown
