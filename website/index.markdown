@@ -14,18 +14,14 @@ Promt is a <a href="https://www.wwtf.at/funding/programmes/ict/ICT25-017/">WWTF<
   {% assign sorted_wps = site.workpackages | sort: "number" %}
   
   {% for wp in sorted_wps %}
-    <!-- 1. The entire card is now the details tag -->
     <details class="wp-card">
       
-      <!-- 2. Everything inside summary is ALWAYS visible and entirely clickable -->
       <summary class="wp-summary">
         
-        <!-- The Logo -->
         <div class="wp-logo">
           WP{{ wp.number }}
         </div>
         
-        <!-- The Title and Lead -->
         <div class="wp-summary-info">
           <h3>{{ wp.title }}</h3>
           
@@ -36,7 +32,6 @@ Promt is a <a href="https://www.wwtf.at/funding/programmes/ict/ICT25-017/">WWTF<
         
       </summary>
       
-      <!-- 3. The hidden content that expands -->
       <div class="wp-expanded-content">
         {{ wp.content | markdownify }}
       </div>

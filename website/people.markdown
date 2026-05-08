@@ -29,7 +29,6 @@ permalink: /people/
         <a href="mailto:{{ person.email }}">Contact</a>
       {% endif %}
       
-      <!-- Optional: Display their bio if they have one -->
       <div class="person-bio">
         {{ person.content | markdownify }}
       </div>
