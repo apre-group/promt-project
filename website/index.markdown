@@ -6,7 +6,7 @@ layout: home
 
 # Promt: Probably the Best Moment to Terminate
 
-Promt is a <a href="https://www.wwtf.at/funding/programmes/ict/ICT25-017/">WWTF</a> funded project, aiming to answer fundamental algorithmic questions related to verification of probabilistic programs. It is a joint project between <a href="https://ista.ac.at/de/forschung/chatterjee-gruppe/">IST Austria</a> and the <a href="https://forsyte.at/">FORSYTE</a> and <a href="https://trustcps.eu/">WWTF</a> groups from TU Wien. The project is split into three workpackages, each led by a principal investigator from one of the groups.
+Promt is a <a href="https://www.wwtf.at/funding/programmes/ict/ICT25-017/">WWTF</a> funded project, aiming to answer fundamental algorithmic questions related to verification of probabilistic programs. It is a joint project between <a href="https://ista.ac.at/de/forschung/chatterjee-gruppe/">IST Austria</a> and the <a href="https://forsyte.at/">FORSYTE</a> and <a href="https://trustcps.eu/">TrustCPS</a> groups from TU Wien. The project is split into three workpackages, each led by a principal investigator from one of the groups.
 
 ## Workpackages
 
