@@ -5,7 +5,6 @@ leader: Krishnendu Chatterjee
 ---
 
 For some classes of probabilistic systems termination is a (semi-)decidable property. 
-
 These decidable fragments are, however, limited in their expresivity.
 When allowing more expressive program models it can become possible to encode for example the Skolem-Problem in the program. 
 
