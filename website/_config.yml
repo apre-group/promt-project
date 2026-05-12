@@ -23,8 +23,8 @@ email:
 description: >- # this means to ignore newlines until "baseurl:"
   The project "Promt: Probably the Best Moment to Terminate" is a WWTF funded project, 
   aiming to answer fundamental algorithmic questions related to verification of probabilistic programs.
-baseurl: "/promt-project" # the subpath of your site, e.g. /blog
-url: "https://apre-group.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://promt.forsyte.at" # the base hostname & protocol for your site, e.g. http://example.com
 home_subtitle: Probably the Best Moment to Terminate
 
 # Build settings
