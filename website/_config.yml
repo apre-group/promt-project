@@ -58,6 +58,9 @@ collections:
     output: false
   workpackages:
     output: false
+  publications:
+    output: false
 
 header_pages:
   - people.markdown
+  - publications.markdown

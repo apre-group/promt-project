@@ -183,3 +183,78 @@
     margin-top: 10px; 
   }
 }
+
+/* Badges */
+
+.publications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-top: 30px;
+}
+
+.pub-card {
+  border-bottom: 1px solid #eaeaea;
+  padding-bottom: 25px;
+}
+
+.pub-card:last-child {
+  border-bottom: none;
+}
+
+.pub-title {
+  margin: 0 0 5px 0;
+  font-size: 1.3rem;
+  color: #222;
+}
+
+.pub-author {
+  margin: 0 0 3px 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+.pub-venue {
+  margin: 0 0 12px 0;
+  color: #777;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.pub-badges {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.85rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: #ffffff!important;
+  text-decoration: none;
+  transition: opacity 0.2s ease, transform 0.1s ease;
+}
+
+.badge:hover {
+  color: #ffffff;
+  text-decoration: none;
+  opacity: 0.85;
+  transform: translateY(-1px);
+}
+
+.badge-artifact {
+  background-color: #28a745; 
+}
+
+.badge-doi {
+  background-color: #007bff;
+}
+
+.badge-preprint {
+  background-color: #6f42c1;
+}
