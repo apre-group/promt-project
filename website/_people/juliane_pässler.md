@@ -1,5 +1,5 @@
 ---
-name: Juliane Pässler
+name: Juliane Päßler
 role: PostDoc
 image: /assets/images/people/juliane_pässler.jpeg
 afilliation: TU Wien
