@@ -23,6 +23,8 @@ permalink: /people/
     {{ person.name }}
   {% endif %}
 </h4>
+      <p class="person-affiliation">{{ person.affiliation }}</p>
+
       <p class="person-role">{{ person.role }}</p>
       
       {% if person.email %}

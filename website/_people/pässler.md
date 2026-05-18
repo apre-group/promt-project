@@ -2,7 +2,7 @@
 name: Juliane Päßler
 role: PostDoc
 image: /assets/images/people/juliane_pässler.jpeg
-afilliation: TU Wien
+affiliation: TU Wien
 sorting: 2
 link: https://forsyte.at/people/paessler/
 ---
